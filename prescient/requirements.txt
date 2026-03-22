@@ -1,0 +1,23 @@
+# Core
+fastapi>=0.110.0
+uvicorn[standard]>=0.29.0
+pydantic>=2.5.0
+python-dotenv>=1.0.0
+aiohttp>=3.9.0
+httpx>=0.27.0
+
+# Data
+pandas>=2.2.0
+
+# Auth
+PyJWT>=2.8.0
+
+# Blockchain (optional, for ERC-8004)
+web3>=6.15.0
+eth-account>=0.11.0
+
+# Filecoin/IPFS
+lighthouseweb3>=0.7.0
+
+# CORS
+starlette>=0.36.0
