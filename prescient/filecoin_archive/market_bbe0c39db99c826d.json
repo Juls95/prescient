@@ -1,0 +1,16 @@
+{
+  "market_id": "bbe0c39db99c826d",
+  "status": "active",
+  "question": "Will Fluid DEX volume exceed $4122.4M again within 7 days?",
+  "description": "Fluid processed $4,122,361,290 in DEX volume across ethereum",
+  "resolution_criteria": "Resolution based on Dune Analytics DEX volume data for Fluid.",
+  "resolution_source": "dune_analytics",
+  "deadline": "2026-03-28T22:45:42.714672",
+  "tradability_score": 0.79,
+  "token_address": "0x457c62d0547f71ae5520c3d4db5b460a16a28557",
+  "pool_address": "0x897deebb8e126dffa341c7927fa30b7704e74e65",
+  "hook_address": "0x7e247e7fa30d65200f74d9ec85ce32eb5288379d",
+  "discovery_cid": null,
+  "created_at": "2026-03-21T21:48:47.555788",
+  "chain_id": 8453
+}

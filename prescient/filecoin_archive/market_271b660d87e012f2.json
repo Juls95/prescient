@@ -1,0 +1,16 @@
+{
+  "market_id": "271b660d87e012f2",
+  "status": "active",
+  "question": "Will Curve DEX volume exceed $1515.3M again within 7 days?",
+  "description": "Curve processed $1,515,349,592 in DEX volume across ethereum",
+  "resolution_criteria": "Resolution based on Dune Analytics DEX volume data for Curve.",
+  "resolution_source": "dune_analytics",
+  "deadline": "2026-03-28T22:46:03.222437",
+  "tradability_score": 0.79,
+  "token_address": "0xf79fc08a3f360d8dd4caff5ad594ba960068c924",
+  "pool_address": "0x882d09bf4eb403419395ff69e83f35c73a7f71c2",
+  "hook_address": "0x6ea3d352bc98ec009b0601262d0e8a3d8a1c1905",
+  "discovery_cid": null,
+  "created_at": "2026-03-21T21:49:08.065387",
+  "chain_id": 8453
+}

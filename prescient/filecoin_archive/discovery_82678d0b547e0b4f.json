@@ -1,0 +1,11 @@
+{
+  "event_type": "dex_volume",
+  "protocol": "Curve",
+  "description": "Curve processed $1,515,349,592 in DEX volume across ethereum",
+  "metric_value": 1515349591.522758,
+  "metric_change_pct": 200,
+  "sentiment_score": 0.0,
+  "sentiment_confidence": 0.0,
+  "tradability_score": 0.79,
+  "timestamp": "2026-03-21T21:46:03.222460"
+}

@@ -1,0 +1,11 @@
+{
+  "event_type": "chain_volume",
+  "protocol": "Ethereum",
+  "description": "Ethereum chain recorded $10,614,886,613 total DEX volume",
+  "metric_value": 10614886613.308386,
+  "metric_change_pct": 150,
+  "sentiment_score": 0.0,
+  "sentiment_confidence": 0.0,
+  "tradability_score": 0.7775,
+  "timestamp": "2026-03-21T21:48:26.978256"
+}

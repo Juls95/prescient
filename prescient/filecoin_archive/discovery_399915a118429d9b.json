@@ -1,0 +1,11 @@
+{
+  "event_type": "dex_volume",
+  "protocol": "Uniswap",
+  "description": "Uniswap processed $226,144,766 in DEX volume across ethereum",
+  "metric_value": 226144766.3664732,
+  "metric_change_pct": 200,
+  "sentiment_score": 0.0,
+  "sentiment_confidence": 0.0,
+  "tradability_score": 0.79,
+  "timestamp": "2026-03-21T21:46:44.047976"
+}

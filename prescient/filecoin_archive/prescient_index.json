@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "updated_at": "2026-03-21T21:49:49.021848",
+  "markets": {
+    "bbe0c39db99c826d": [
+      "local:8fb9aefc9659ab0adf34ecac3ca44c70"
+    ],
+    "271b660d87e012f2": [
+      "local:6352671fa4624b7ab03df78e29875fa1"
+    ],
+    "1c6dea9b956af780": [
+      "local:550ea6d63744f1cb68400d54bc132d82"
+    ]
+  },
+  "latest_discovery_cid": "local:fac150f081383210bcf50695834be25d",
+  "latest_index_cid": null
+}

@@ -1,0 +1,11 @@
+{
+  "event_type": "dex_volume",
+  "protocol": "Ekubo",
+  "description": "Ekubo processed $6,489,421 in DEX volume across ethereum",
+  "metric_value": 6489421.186987811,
+  "metric_change_pct": 32.44710593493905,
+  "sentiment_score": 0.0,
+  "sentiment_confidence": 0.0,
+  "tradability_score": 0.7177288617942805,
+  "timestamp": "2026-03-21T21:47:04.846332"
+}
