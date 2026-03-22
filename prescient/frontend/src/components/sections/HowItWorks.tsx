@@ -28,7 +28,7 @@ export function HowItWorks() {
           transition={{ duration: 0.45 }}
           className="text-[38px] md:text-[52px] font-bold tracking-tighter text-[#0a0a0a] mb-12 max-w-2xl"
         >
-          How Prescient works.
+          How Traipp works.
         </motion.h2>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">

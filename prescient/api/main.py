@@ -1,4 +1,4 @@
-"""FastAPI backend for Prescient — serves live agent data.
+"""FastAPI backend for Traipp — serves live agent data.
 
 Endpoints:
 - GET  /api/health          — system status
@@ -20,7 +20,7 @@ from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 
 from agent.config import load_settings, Settings
-from agent.orchestrator import PrescientAgent
+from agent.orchestrator import TraippAgent
 from agent.storage.filecoin import FilecoinDB
 from agent.data.scheduler import DataScheduler
 from api.routes.users import router as users_router
@@ -30,7 +30,7 @@ logger = logging.getLogger(__name__)
 
 # ── Global state ──────────────────────────────────────────────────────
 
-_agent: Optional[PrescientAgent] = None
+_agent: Optional[TraippAgent] = None
 _settings: Optional[Settings] = None
 _storage: Optional[FilecoinDB] = None
 _scheduler: Optional[DataScheduler] = None
@@ -49,7 +49,7 @@ async def lifespan(app: FastAPI):
 
     try:
         _settings = load_settings()
-        _agent = PrescientAgent(_settings)
+        _agent = TraippAgent(_settings)
 
         if _settings.lighthouse_api_key:
             _storage = FilecoinDB(_settings.lighthouse_api_key)
@@ -65,7 +65,7 @@ async def lifespan(app: FastAPI):
                         _settings.scheduler_dune_interval_hours,
                         _settings.scheduler_sentiment_interval_hours)
 
-        logger.info("Prescient API started")
+        logger.info("Traipp API started")
         yield
     finally:
         if _scheduler:
@@ -74,13 +74,13 @@ async def lifespan(app: FastAPI):
             _scheduler_task.cancel()
         if _storage:
             await _storage.__aexit__(None, None, None)
-        logger.info("Prescient API shutdown")
+        logger.info("Traipp API shutdown")
 
 
 # ── App ───────────────────────────────────────────────────────────────
 
 app = FastAPI(
-    title="Prescient API",
+    title="Traipp API",
     description="Autonomous Prediction Markets Powered by AI Agents",
     version="0.2.0",
     lifespan=lifespan,

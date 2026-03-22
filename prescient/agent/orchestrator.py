@@ -1,4 +1,4 @@
-"""Main orchestrator for the Prescient AI Agent.
+"""Main orchestrator for the Traipp AI Agent.
 
 Wires together: Discovery → Scoring → Market Creation → Resolution → Storage.
 All data flows through Filecoin for permanent storage.
@@ -22,7 +22,7 @@ from .storage.filecoin import FilecoinDB
 logger = logging.getLogger(__name__)
 
 
-class PrescientAgent:
+class TraippAgent:
     """Main agent orchestrating prediction market lifecycle.
 
     Flow:
@@ -34,7 +34,7 @@ class PrescientAgent:
     6. Sign everything with ERC-8004 receipts
     """
 
-    def __init__(self, settings: Settings, db_path: str = "prescient_users.db"):
+    def __init__(self, settings: Settings, db_path: str = "traipp_users.db"):
         self.settings = settings
         self.scorer = MarketScorer()
         self.running = False
@@ -300,7 +300,7 @@ async def _async_main():
         logger.error("Configuration error: %s", exc)
         return
 
-    agent = PrescientAgent(settings)
+    agent = TraippAgent(settings)
     result = await agent.run_discovery_cycle()
 
     print(f"\n{'='*60}")

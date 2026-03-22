@@ -16,7 +16,7 @@ class ApiClient {
 
   private getToken(): string | null {
     if (typeof window === "undefined") return null;
-    return localStorage.getItem("prescient_token");
+    return localStorage.getItem("traipp_token");
   }
 
   async request<T>(endpoint: string, options: RequestOptions = {}): Promise<T> {

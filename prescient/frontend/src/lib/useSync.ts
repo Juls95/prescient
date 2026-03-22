@@ -33,11 +33,11 @@ export function useSync() {
           },
         });
         if (res.token) {
-          localStorage.setItem("prescient_token", res.token);
+          localStorage.setItem("traipp_token", res.token);
         }
         synced.current = true;
       } catch (err) {
-        console.warn("[Prescient] Backend sync failed (non-blocking):", err);
+        console.warn("[Traipp] Backend sync failed (non-blocking):", err);
         // Don't block the user - Clerk auth still works, backend sync is best-effort
       }
     };

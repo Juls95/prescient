@@ -18,9 +18,9 @@ export function Navbar() {
         {/* Logo */}
         <Link href="/" className="flex items-center gap-2">
           <div className="w-7 h-7 rounded-lg bg-[#7c3aed] flex items-center justify-center">
-            <span className="text-white font-bold text-xs">P</span>
+            <span className="text-white font-bold text-xs">T</span>
           </div>
-          <span className="text-[15px] font-semibold tracking-tight text-[#0a0a0a]">Prescient</span>
+          <span className="text-[15px] font-semibold tracking-tight text-[#0a0a0a]">Traipp</span>
         </Link>
 
         {/* Nav links */}
@@ -39,7 +39,7 @@ export function Navbar() {
         {/* CTA */}
         <div className="flex items-center gap-3">
           <a
-            href="https://github.com/Juls95/prescient"
+            href="https://github.com/Juls95/traipp"
             target="_blank"
             rel="noopener noreferrer"
             className="hidden md:block text-[14px] text-[#71717a] hover:text-[#0a0a0a] transition-colors"

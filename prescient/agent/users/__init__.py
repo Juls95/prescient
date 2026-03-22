@@ -1,1 +1,1 @@
-"""User management and authentication for Prescient."""
+"""User management and authentication for Traipp."""

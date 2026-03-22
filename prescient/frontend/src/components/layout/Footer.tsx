@@ -8,9 +8,9 @@ export function Footer() {
           <div>
             <div className="flex items-center gap-2 mb-3">
               <div className="w-7 h-7 rounded-lg bg-[#7c3aed] flex items-center justify-center">
-                <span className="text-white font-bold text-xs">P</span>
+                <span className="text-white font-bold text-xs">T</span>
               </div>
-              <span className="text-[15px] font-semibold tracking-tight text-[#0a0a0a]">Prescient</span>
+              <span className="text-[15px] font-semibold tracking-tight text-[#0a0a0a]">Traipp</span>
             </div>
             <p className="text-[14px] text-[#71717a] max-w-md">
               Social intelligence hub — curated tweets, NLP sentiment scoring, and permanent Filecoin storage.
@@ -23,7 +23,7 @@ export function Footer() {
             <a href="#groups" className="text-[#71717a] hover:text-[#0a0a0a] transition-colors">Groups</a>
             <a href="#faq" className="text-[#71717a] hover:text-[#0a0a0a] transition-colors">FAQ</a>
             <a
-              href="https://github.com/Juls95/prescient"
+              href="https://github.com/Juls95/traipp"
               target="_blank"
               rel="noopener noreferrer"
               className="text-[#71717a] hover:text-[#0a0a0a] transition-colors"
@@ -42,7 +42,7 @@ export function Footer() {
         </div>
 
         <div className="mt-8 pt-6 border-t border-[#e4e4e7] text-[13px] text-[#a1a1aa]">
-          © 2026 Prescient · Built for Synthesis Hackathon
+          © 2026 Traipp · Built for Synthesis Hackathon
         </div>
       </div>
     </footer>

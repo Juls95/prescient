@@ -23,7 +23,7 @@ export class ErrorBoundary extends Component<Props, State> {
   }
 
   componentDidCatch(error: Error, errorInfo: React.ErrorInfo) {
-    console.error("[Prescient] Error boundary caught:", error, errorInfo);
+    console.error("[Traipp] Error boundary caught:", error, errorInfo);
   }
 
   render() {

@@ -179,7 +179,7 @@ export default function SuggestPage() {
                         <ExternalLink size={10} /> Stored on Filecoin
                       </a>
                       <p className="text-[10px] text-amber-600">
-                        🔒 This CID links to encrypted data. Do not share outside the Prescient app.
+                        🔒 This CID links to encrypted data. Do not share outside the Traipp app.
                       </p>
                     </div>
                   )}

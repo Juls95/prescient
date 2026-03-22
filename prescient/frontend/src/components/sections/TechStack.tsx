@@ -56,7 +56,7 @@ export function TechStack() {
           transition={{ duration: 0.45 }}
           className="text-[38px] md:text-[52px] font-bold tracking-tighter text-[#0a0a0a] mb-12 max-w-3xl"
         >
-          The tech behind Prescient.
+          The tech behind Traipp.
         </motion.h2>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">

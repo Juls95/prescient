@@ -1,5 +1,5 @@
 """
-Prescient - Autonomous Prediction Markets AI Agent
+Traipp - Social Intelligence Hub AI Agent
 """
 
 __version__ = "0.1.0"

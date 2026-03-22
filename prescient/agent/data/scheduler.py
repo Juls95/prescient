@@ -1,4 +1,4 @@
-"""Automated data collection scheduler for Prescient.
+"""Automated data collection scheduler for Traipp.
 
 Runs on configurable intervals, respecting API rate limits:
 - Price data: every 1 hour (CoinGecko free tier: 10-30 req/min)
@@ -45,7 +45,7 @@ def _safe_score_text(texts: list[str]) -> tuple[float, dict]:
 class DataScheduler:
     """Manages automated data collection on configurable schedules."""
 
-    def __init__(self, settings: Settings, db_path: str = "prescient_users.db", filecoin_db=None):
+    def __init__(self, settings: Settings, db_path: str = "traipp_users.db", filecoin_db=None):
         self.settings = settings
         self.db_path = db_path
         self.filecoin_db = filecoin_db
@@ -179,8 +179,8 @@ class DataScheduler:
         run_id = db.log_run_start("discovery")
 
         try:
-            from ..orchestrator import PrescientAgent
-            agent = PrescientAgent(self.settings)
+            from ..orchestrator import TraippAgent
+            agent = TraippAgent(self.settings)
             result = await agent.run_discovery_cycle()
 
             events_count = result.get("events_discovered", 0)

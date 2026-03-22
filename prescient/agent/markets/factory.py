@@ -1,4 +1,4 @@
-"""Market creation and deployment logic for Prescient.
+"""Market creation and deployment logic for Traipp.
 
 Handles the lifecycle of creating a prediction market:
 1. Generate market spec from scored candidate

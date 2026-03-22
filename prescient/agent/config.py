@@ -1,4 +1,4 @@
-"""Runtime configuration for Prescient."""
+"""Runtime configuration for Traipp."""
 
 from dataclasses import dataclass, field
 from pathlib import Path

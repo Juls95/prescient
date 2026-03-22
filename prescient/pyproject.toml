@@ -1,14 +1,14 @@
 [project]
-name = "prescient"
+name = "traipp"
 version = "0.2.0"
-description = "Autonomous Prediction Markets Powered by AI Agents"
+description = "Social Intelligence Hub Powered by AI Agents"
 readme = "README.md"
 requires-python = ">=3.10"
 license = {text = "MIT"}
 authors = [
     {name = "Julian Ramirez", email = "juramirez.ve@gmail.com"},
 ]
-keywords = ["ai", "agent", "prediction-market", "defi", "uniswap", "dune", "filecoin"]
+keywords = ["ai", "agent", "social-intelligence", "sentiment", "filecoin", "crypto"]
 
 dependencies = [
     "aiohttp>=3.9.0",
@@ -32,8 +32,8 @@ dev = [
 ]
 
 [project.scripts]
-prescient-agent = "agent.orchestrator:cli_main"
-prescient-api = "api.main:cli_main"
+traipp-agent = "agent.orchestrator:cli_main"
+traipp-api = "api.main:cli_main"
 
 [build-system]
 requires = ["setuptools>=68.0"]

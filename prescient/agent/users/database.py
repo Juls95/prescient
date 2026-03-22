@@ -1,4 +1,4 @@
-"""SQLite user database for Prescient.
+"""SQLite user database for Traipp.
 
 Stores user accounts, preferences, votes, and market participation.
 Uses aiosqlite for async access from FastAPI.
@@ -13,7 +13,7 @@ from typing import Optional
 
 logger = logging.getLogger(__name__)
 
-DB_PATH = os.getenv("PRESCIENT_DB_PATH", "prescient_users.db")
+DB_PATH = os.getenv("TRAIPP_DB_PATH", "traipp_users.db")
 
 # ── Schema ────────────────────────────────────────────────────────────
 
@@ -76,7 +76,7 @@ CREATE TABLE IF NOT EXISTS user_activity (
 
 def _hash_password(password: str) -> str:
     """Hash password with SHA-256 + salt. For production, use bcrypt."""
-    salt = "prescient-salt-v1"  # In production, use per-user random salt
+    salt = "traipp-salt-v1"  # In production, use per-user random salt
     return hashlib.sha256(f"{salt}:{password}".encode()).hexdigest()
 
 

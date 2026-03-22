@@ -56,7 +56,7 @@ export default function AppLayout({ children }: { children: React.ReactNode }) {
       {/* Mobile header */}
       <div className="lg:hidden fixed top-0 left-0 right-0 h-14 bg-white border-b border-[#e5e5e5] flex items-center justify-between px-4 z-50">
         <Link href="/dashboard" className="text-lg font-bold tracking-tighter text-[#0a0a0a]">
-          prescient<span className="text-[#7c3aed]">.</span>
+          traipp<span className="text-[#7c3aed]">.</span>
         </Link>
         <button onClick={() => setSidebarOpen(!sidebarOpen)} className="p-2 text-[#666]">
           {sidebarOpen ? <X size={20} /> : <Menu size={20} />}
@@ -67,7 +67,7 @@ export default function AppLayout({ children }: { children: React.ReactNode }) {
       <aside className={`fixed top-0 left-0 h-full w-64 bg-white border-r border-[#e5e5e5] z-40 transform transition-transform duration-200 ${sidebarOpen ? "translate-x-0" : "-translate-x-full"} lg:translate-x-0`}>
         <div className="p-6">
           <Link href="/dashboard" className="text-xl font-bold tracking-tighter text-[#0a0a0a]">
-            prescient<span className="text-[#7c3aed]">.</span>
+            traipp<span className="text-[#7c3aed]">.</span>
           </Link>
         </div>
 

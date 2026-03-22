@@ -136,7 +136,7 @@ function CollectionGroup({ collection, index }: { collection: Collection; index:
             >
               <ExternalLink size={12} /> Filecoin
             </a>
-            <span className="text-[10px] text-amber-600 bg-amber-50 px-1.5 py-0.5 rounded border border-amber-200" title="This CID links to encrypted data stored on Filecoin. Do not share outside Prescient.">
+            <span className="text-[10px] text-amber-600 bg-amber-50 px-1.5 py-0.5 rounded border border-amber-200" title="This CID links to encrypted data stored on Filecoin. Do not share outside Traipp.">
               🔒 Internal
             </span>
           </div>

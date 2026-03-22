@@ -18,7 +18,7 @@ export function Hero() {
           transition={{ duration: 0.4 }}
           className="inline-flex items-center gap-2 mb-6"
         >
-          <span className="badge">🧠 Prescient Information Hub</span>
+          <span className="badge">🧠 Traipp Intelligence Hub</span>
         </motion.div>
 
         {/* Headline */}
@@ -57,7 +57,7 @@ export function Hero() {
             <span className="uppercase tracking-[0.08em]">Get started free</span>
           </Link>
           <a
-            href="https://github.com/Juls95/prescient"
+            href="https://github.com/Juls95/traipp"
             target="_blank"
             rel="noopener noreferrer"
             className="px-6 py-3 bg-[#f4f4f5] text-[#0a0a0a] text-[15px] font-semibold rounded-full border border-[#e4e4e7] hover:bg-[#ececec] transition-colors"

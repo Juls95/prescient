@@ -1,4 +1,4 @@
-"""JWT authentication for Prescient API.
+"""JWT authentication for Traipp API.
 
 Provides token generation and verification for user sessions.
 Keys are loaded from environment variables — never hardcoded.

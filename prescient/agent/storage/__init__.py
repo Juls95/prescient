@@ -1,1 +1,1 @@
-"""Filecoin/IPFS storage layer for Prescient."""
+"""Filecoin/IPFS storage layer for Traipp."""

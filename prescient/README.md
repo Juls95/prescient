@@ -1,4 +1,4 @@
-# Prescient
+# Traipp
 
 > Autonomous Prediction Markets Powered by AI Agents
 
@@ -7,7 +7,7 @@
 
 ## Overview
 
-**Prescient** is an AI agent that autonomously operates prediction markets — discovering events from on-chain data and social signals, creating markets with Uniswap-powered liquidity, and resolving outcomes using verifiable ERC-8004 attestations.
+**Traipp** is a social intelligence hub — curating tweets from top influencers, scoring sentiment with NLP, and permanently archiving insights on Filecoin. Real-time intelligence for Crypto, Stocks, Tech & Geopolitics.
 
 ### The Problem
 
@@ -63,7 +63,7 @@ An AI agent that handles the entire prediction market lifecycle:
 ## Project Structure
 
 ```
-prescient/
+traipp/
 ├── agent/                  # AI agent modules
 │   ├── discovery/          # Event discovery engine
 │   ├── markets/            # Market creation & management
@@ -78,8 +78,8 @@ prescient/
 
 ```bash
 # Clone the repository
-git clone https://github.com/Juls95/prescient.git
-cd prescient
+git clone https://github.com/Juls95/traipp.git
+cd traipp
 
 # Install dependencies (coming soon)
 pip install -r requirements.txt

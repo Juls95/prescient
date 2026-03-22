@@ -5,7 +5,7 @@ import { motion, AnimatePresence } from "framer-motion";
 
 const faqs = [
   {
-    q: "What data does Prescient collect?",
+    q: "What data does Traipp collect?",
     a: "We fetch tweets from 11 curated influencers across 4 groups (Crypto, Stocks, Tech, Geopolitics) using the X/Twitter API v2. Each tweet includes full text, engagement metrics (likes, replies, retweets), and author metadata.",
   },
   {
@@ -26,7 +26,7 @@ const faqs = [
   },
   {
     q: "Is my data private?",
-    a: "User profiles are managed by Clerk with enterprise-grade security. Tweet data on Filecoin uses Lighthouse encryption. Filecoin CIDs are marked as internal — do not share outside the Prescient app.",
+    a: "User profiles are managed by Clerk with enterprise-grade security. Tweet data on Filecoin uses Lighthouse encryption. Filecoin CIDs are marked as internal — do not share outside the Traipp app.",
   },
 ];
 

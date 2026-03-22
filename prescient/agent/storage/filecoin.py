@@ -184,7 +184,7 @@ class FilecoinDB:
         """Upload the master index to Filecoin, return CID."""
         self._index.updated_at = datetime.utcnow()
         data = self._index.model_dump(mode="json")
-        cid = await self._upload_json(data, "prescient_index.json")
+        cid = await self._upload_json(data, "traipp_index.json")
         self._index.latest_index_cid = cid
         logger.info("Index persisted → %s", cid)
         return cid

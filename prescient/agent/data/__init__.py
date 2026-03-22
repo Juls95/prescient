@@ -1,1 +1,1 @@
-"""Automated data collection and scheduling for Prescient."""
+"""Automated data collection and scheduling for Traipp."""

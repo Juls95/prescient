@@ -9,12 +9,12 @@ const geist = Geist({
 });
 
 export const metadata: Metadata = {
-  title: "Prescient | Autonomous Prediction Markets Powered by AI Agents",
-  description: "AI agents autonomously discover events, create markets, and resolve outcomes using on-chain data and social signals. Powered by Dune Analytics and Uniswap v4.",
-  keywords: ["prediction markets", "AI agents", "DeFi", "Uniswap", "Dune Analytics", "Base", "blockchain"],
+  title: "Traipp | Social Intelligence Hub Powered by AI Agents",
+  description: "AI agents curate tweets, score sentiment with NLP, and permanently archive insights on Filecoin. Powered by X/Twitter API, CoinGecko, and Lighthouse.",
+  keywords: ["social intelligence", "AI agents", "sentiment analysis", "Filecoin", "crypto", "NLP"],
   authors: [{ name: "Julian Ramirez" }],
   openGraph: {
-    title: "Prescient | Autonomous Prediction Markets",
+    title: "Traipp | Social Intelligence Hub",
     description: "AI agents autonomously discover events, create markets, and resolve outcomes",
     type: "website",
   },

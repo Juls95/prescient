@@ -44,7 +44,7 @@ export default function PipelinePage() {
         api.getSentiment(),
       ]);
       if (h.status === "fulfilled") setHealth(h.value);
-      else setError("Backend not reachable. Start it with: cd prescient && python3 -m uvicorn api.main:app --reload");
+      else setError("Backend not reachable. Start it with: cd traipp && python3 -m uvicorn api.main:app --reload");
       if (s.status === "fulfilled") setScheduler(s.value);
       if (r.status === "fulfilled") setRuns(r.value.runs);
       if (rl.status === "fulfilled") setRateLimits(rl.value);
